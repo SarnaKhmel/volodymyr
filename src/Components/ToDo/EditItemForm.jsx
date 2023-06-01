@@ -20,6 +20,10 @@ const colors = [
   },
 ];
 
+const user = {
+  some: "test",
+};
+
 const EditItemForm = ({ val, color, colorList, checked, id }) => {
   const onSubmit = (e) => {
     e.preventDefault();
